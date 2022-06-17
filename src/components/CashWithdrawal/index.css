@@ -1,0 +1,93 @@
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-and-logo-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.logo {
+  background-color: #c7d2fe;
+  font-family: 'Roboto';
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  text-align: center;
+  color: #7c3aed;
+  padding: 14px;
+  margin-right: 10px;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding-top: 9px;
+}
+
+.balance-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-word {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  align-items: center;
+  margin-top: 30px;
+  font-family: 'Roboto';
+}
+
+.balance {
+  color: #bab6c9;
+  padding-bottom: 20px;
+  font-size: 30px;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.rupees {
+  color: #585076;
+  font-size: 12px;
+  font-family: 'Roboto';
+  text-align: right;
+  margin-right: 26px;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.choose-sum {
+  color: #585076;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.button-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
